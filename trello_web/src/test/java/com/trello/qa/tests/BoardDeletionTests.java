@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class BoardDeletionTests extends TestBase {
-    @BeforeClass
+   /* @BeforeClass
     public void ensurePreconditions() {
         if (!app.getSessionHelper().isUserLoggedIn()) {
             app.getSessionHelper().login("sveta.vitkina@yandex.ua", "dasha2004");
@@ -18,7 +18,7 @@ public class BoardDeletionTests extends TestBase {
         if (!app.getBoardHelper().isTherePersonalBoardsPresent()) {
             app.getSessionHelper().returnToHomePage();
         }
-    }
+    }*/
 
     @Test
     public void testBoardDeletion() throws InterruptedException {

@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class BoardCreationTests extends TestBase {
-    @BeforeClass
+  /*  @BeforeClass
     public void ensurePreconditions() {
         if (!app.getSessionHelper().isUserLoggedIn()) {
             app.getSessionHelper().login("sveta.vitkina@yandex.ua", "dasha2004");
@@ -19,7 +19,7 @@ public class BoardCreationTests extends TestBase {
         if (!app.getBoardHelper().isTherePersonalBoardsPresent()) {
             app.getSessionHelper().returnToHomePage();
         }
-    }
+    }*/
 
     @Test
     public void testBoardCreationFromPlusButtonOnHeader() throws InterruptedException {

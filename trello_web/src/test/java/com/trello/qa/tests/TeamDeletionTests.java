@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TeamDeletionTests extends TestBase {
-    @BeforeClass
+  /*  @BeforeClass
     public void ensurePreconditions() {
         if (!app.getSessionHelper().isUserLoggedIn()) {
             app.getSessionHelper().login("sveta.vitkina@yandex.ua", "dasha2004");
@@ -18,7 +18,7 @@ public class TeamDeletionTests extends TestBase {
         if(!app.getTeamHelper().isTeamsPresent()){
             app.getTeamHelper().createTeam();
         }
-    }
+    }*/
 
     @Test
     public void testTeamDeletionFromLeftNavMenu() throws InterruptedException {

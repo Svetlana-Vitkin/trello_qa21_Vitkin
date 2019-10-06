@@ -59,7 +59,7 @@ public class BoardHelper extends HelperBase {
     }
 
     public void openThirdBoard()
-    {new WebDriverWait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class='boards-page-board-section-list']/li[3]")));
+    {new WebDriverWait(driver,20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class='boards-page-board-section-list']/li[3]")));
         click(By.xpath("//*[@class='boards-page-board-section-list']/li[3]"));
     }
 
@@ -89,7 +89,7 @@ public class BoardHelper extends HelperBase {
     }
 
     public void clickOnFirstPrivateBoard() {
-        new WebDriverWait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class='boards-page-board-section-list']/li[3]")));
+        new WebDriverWait(driver,20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class='boards-page-board-section-list']/li[3]")));
         click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li[1]"));
     }
     //*[@class='boards-page-board-section-list']/li[1]

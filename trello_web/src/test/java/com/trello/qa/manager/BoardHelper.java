@@ -90,8 +90,9 @@ public class BoardHelper extends HelperBase {
 
     public void clickOnFirstPrivateBoard() {
         new WebDriverWait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class='boards-page-board-section-list']/li[3]")));
-        click(By.xpath("//*[@class='boards-page-board-section-list']/li[1]"));
+        click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li[1]"));
     }
+    //*[@class='boards-page-board-section-list']/li[1]
 
     public void changeBoardName(String newName) throws InterruptedException {
         driver.findElement(By.cssSelector(".js-rename-board")).click();

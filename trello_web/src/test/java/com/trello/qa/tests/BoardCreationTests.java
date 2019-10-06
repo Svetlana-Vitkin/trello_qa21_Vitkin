@@ -23,7 +23,7 @@ public class BoardCreationTests extends TestBase {
 
     @Test
     public void testBoardCreationFromPlusButtonOnHeader() throws InterruptedException {
-        int before = app.getBoardHelper().getBoardsCount();
+      //  int before = app.getBoardHelper().getBoardsCount();
         app.getSessionHelper().clickOnPlusButtonOnHeader();
         app.getBoardHelper().selectCreateBoardFromDropDown();
         String boardName = "QA21";
@@ -31,7 +31,7 @@ public class BoardCreationTests extends TestBase {
         app.getBoardHelper().confirmBoardCreation();
         String createdBoardName = app.getBoardHelper().getBoardNameFromBoardPage();
         app.getSessionHelper().returnToHomePage();
-        int after = app.getBoardHelper().getBoardsCount();
+      //  int after = app.getBoardHelper().getBoardsCount();
       //  Assert.assertEquals(after, before + 1);
         Assert.assertEquals(createdBoardName.toLowerCase(), boardName.toLowerCase());
     }

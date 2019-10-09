@@ -5,10 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
-
 import java.util.concurrent.TimeUnit;
 
-public class ApplicationManager{
+public class ApplicationManager {
     WebDriver driver;
     TeamHelper teamHelper;
     BoardHelper boardHelper;
@@ -16,35 +15,27 @@ public class ApplicationManager{
     private String browser;
 
     public ApplicationManager(String browser) {
-
         this.browser = browser;
     }
 
     public void init() {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-        sessionHelper = new SessionHelper(driver);
-        sessionHelper.openSite("https://trello.com");
-        sessionHelper.login("sveta.vitkina@yandex.ua", "dasha2004");
-        teamHelper = new TeamHelper(driver);
-        boardHelper = new BoardHelper(driver);
-      /*  String browser = null;
         if(browser.equals(BrowserType.CHROME)){
             driver = new ChromeDriver();
-        }
-        if(browser.equals(BrowserType.EDGE)){
+        }if (browser.equals(BrowserType.FIREFOX)){
+            driver = new FirefoxDriver();
+        }if (browser.equals(BrowserType.EDGE)){
             driver = new EdgeDriver();
         }
 
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
 
-        sessionHelper = new SessionHelper(driver);
-        sessionHelper.openSite("https://trello.com/");
-        sessionHelper.login("sveta.vitkina@yandex.ua", "dasha2004");
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         teamHelper = new TeamHelper(driver);
-        boardHelper = new BoardHelper(driver);*/
+        boardHelper = new BoardHelper(driver);
+        sessionHelper = new SessionHelper(driver);
+
+        sessionHelper.openSite("https://trello.com");
+        sessionHelper.login("sveta.vitkina@yandex.ua", "dasha2004");
     }
 
     public void stop() {

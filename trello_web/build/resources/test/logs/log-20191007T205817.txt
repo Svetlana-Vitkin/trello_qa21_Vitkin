@@ -1,0 +1,17 @@
+20:59:35.366 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromPlusButtonOnHeaderWithDataProviderwith parameters []
+20:59:45.648 [Test worker] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromPlusButtonOnHeaderWithDataProvider
+20:59:45.648 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromPlusButtonOnHeaderWithDataProviderwith parameters []
+20:59:53.249 [Test worker] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromPlusButtonOnHeaderWithDataProvider
+20:59:53.249 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromPlusButtonOnHeaderWithDataProviderwith parameters []
+21:00:00.771 [Test worker] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromPlusButtonOnHeaderWithDataProvider
+21:00:00.771 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromPlusButtonOnHeaderWithDataProviderwith parameters []
+21:00:08.000 [Test worker] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromPlusButtonOnHeaderWithDataProvider
+21:00:08.000 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromPlusButtonOnHeaderWithDataProviderwith parameters []
+21:00:15.783 [Test worker] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromPlusButtonOnHeaderWithDataProvider
+21:00:15.845 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromPlusButtonOnHeaderWithDataProviderfromcsvwith parameters []
+21:00:24.041 [Test worker] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromPlusButtonOnHeaderWithDataProviderfromcsv
+21:00:24.041 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromPlusButtonOnHeaderWithDataProviderfromcsvwith parameters []
+21:00:32.187 [Test worker] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromPlusButtonOnHeaderWithDataProviderfromcsv
+21:00:32.187 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromPlusButtonOnHeaderWithDataProviderfromcsvwith parameters []
+21:00:39.893 [Test worker] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromPlusButtonOnHeaderWithDataProviderfromcsv
+21:00:39.893 [Test worker] INFO  com.trello.qa.tests.TestBase - start test testRenameTeamwith parameters []
